@@ -1,0 +1,46 @@
+﻿Name,StockM,desiredM,Enzyme
+MgCl2_IA,1,0.015,rubisco
+NaHCO3_IA,0.5,0.015,rubisco
+RuBP,,0.0005,rubisco
+HEPES,0.25,0.05,rubisco
+MgCl2,1,0.02,rubisco
+EDTA,0.5,0.001,rubisco
+NaHCO3 ,0.5,0.02,rubisco
+NADH,0.04,0.0003,rubisco
+ATP/CP,0.05,0.005,rubisco
+HEPES,0.25,0.05,glycerateKinase
+MgCl2,1,0.01,glycerateKinase
+KCl,4,0.06,glycerateKinase
+NADH,0.04,0.0003,glycerateKinase
+ATP/CP,0.05,0.005,glycerateKinase
+Glycerate,,0.005,glycerateKinase
+Phenylhydrazine,0.11,0.0055,glycolateOxidase
+Riboflavin,0.0013,0.0000637,glycolateOxidase
+K-PhosphateBuffer ,0.5,0.05,glycolateOxidase
+GlycolicAcid,0.1,0.0025,glycolateOxidase
+K-PhosphateBuffer ,0.5,0.05,catalase
+H2O2,0.03,0.005,catalase
+K-PhosphateBuffer ,0.5,0.1,hydroxypyruvateReductase
+NADH,0.04,0.0002,hydroxypyruvateReductase
+Na-B-Hydroxypyruvate,0.05,0.0005,hydroxypyruvateReductase
+K-PhosphateBuffer ,0.5,0.1,GGAT
+NADH,0.04,0.00017,GGAT
+Pyridoxal5Phosphate,0.02,0.0001,GGAT
+Glutamate,0.5,0.02,GGAT
+Glyoxylate,0.1,0.005,GGAT
+GlutamicDH,100,2,GGAT
+K-PhosphateBuffer ,0.5,0.1,AGAT
+NADH,0.04,0.00017,AGAT
+Pyridoxal5Phosphate,0.02,0.0001,AGAT
+Alanine,1.6,0.2,AGAT
+Glyoxylate,0.1,0.005,AGAT
+LactateDH,3,0.06,AGAT
+K-PhosphateBuffer ,0.5,0.1,SGAT
+NADH,0.04,0.00017,SGAT
+Pyridoxal5Phosphate,0.02,0.0001,SGAT
+Serine,1,0.02,SGAT
+Glyoxylate,0.1,0.001,SGAT
+HydroxypyruvateReductase1,,0.05,SGAT
+HEPES,0.25,0.05,PGP
+EDTA,0.5,0.001,PGP
+MgCl2,1,0.01,PGP
