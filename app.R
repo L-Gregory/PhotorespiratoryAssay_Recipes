@@ -3,9 +3,9 @@ library(shinythemes)
 library(tidyverse)
 
 # Store the needed .csv files to object by path (or by using file.choose() to select from device)
-ChemicalList <- "/Users/luke_gregory/Desktop/ShinyApp/PhotorespiratoryAssayChemicals.csv"
-ExtractionBufferMolaritiesList <- "/Users/luke_gregory/Desktop/ShinyApp/PhotorespiraotryAssayExtractionBuffer.csv"
-EnzymeMolaritiesList <- "/Users/luke_gregory/Desktop/ShinyApp/PhotorespiraotryAssayEnzymes.csv"
+ChemicalList <- "Chemicals.csv"
+ExtractionBufferMolaritiesList <- "ExtractionBuffer.csv"
+EnzymeMolaritiesList <- "Enzymes.csv"
 
 # Read in the .csv from above 
 Chemicals <- read_csv(ChemicalList)
