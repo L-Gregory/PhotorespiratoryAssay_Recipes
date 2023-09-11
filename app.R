@@ -203,6 +203,10 @@ ui <- fluidPage(
                h3("Reaction Buffer"),
                # Add a place to display the Rubisco Reaction Buffer recipe
                verbatimTextOutput("PGPRB"),
+               # Add "reaction buffer" header
+               h3("Reagent Buffer"),
+               # Add a place to display the Rubisco Reaction Buffer recipe
+               verbatimTextOutput("ReagentBuffer"),
              )
            )),
   
@@ -693,6 +697,15 @@ server <- function(input, output) {
           "4)", H2O.PGPRB, "uL of H2O", "\n",
           "Invert a few times to mix, and store at the assay temperature")
   })
+
+  output$ReagentBuffer <- renderText({
+    paste("Using an 15mL falcon tube, add:", "\n",
+          "1) 5mL of 5N Sulferic Acid", "\n",
+          "2) 0.5 mL of 0.004M Anitomony Potassium Tartrate", "\n",
+          "3) 1.5 mL 0.03267M Ammonium Molybdate Tetrahydrate", "\n",
+          "4) 3 mL of 0.1M Ascorbic Acid", "\n",
+          "Invert a few times to mix, and store at the assay temperature")
+    })
   
   output$glycolicacid <- renderText({
     GlycolicAcid <- ((GlycolateOxidase$desiredM[GlycolateOxidase$Name == "GlycolicAcid"] * input$go_vol) / input$glycolicacid_M) * input$go_rxn
