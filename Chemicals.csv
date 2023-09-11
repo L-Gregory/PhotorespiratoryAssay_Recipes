@@ -6,18 +6,19 @@ Potassium Phosphate Dibasic,174.18,SigmaAldrich,P3786-500G
 EDTA,372.24,invitrogen,15576-028
 MgCl2,203.31,Fisher,BP214-500
 KCl,74.55,SigmaAldrich,746436-500G
-ATP,551.14,,
-Creatine Phosphate,327.14,,
+ATP,551.14,SigmaAldrich,34369-07-8
+Creatine Phosphate,327.14,SigmaAldrich,71519-72-7
 DTT,154.24,Fisher,3483-12-3G
-NaHCO3,324.8,Mallinckrodt AR,7412
+NaHCO3,84.01,Mallinckrodt AR,7412
 NADH,709.4,SigmaAlrich,10128023001
-Glutamate,187.13,,
-Alanine,89.09,,
-Serine,105.09,,
+L-Glutamic Acid (Glutamate),187.13,SigmaAldrich,
+D-Alanine,89.09,SigmaAldrich,A-7377
+L-Serine,105.09,SigmaAldrich,56-45-1
 NaOH,40,,
 Sulfuric Acid,98.08,,
-Antimony Potassium Tartrate,667.87,,
-Ammonium Molybdate,1235.86,,
-Ascorbic Acid,176.12,,
+Antimony Potassium Tartrate,667.87,Alfa Aesar,40619
+Ammonium Molybdate,1235.86,JCN Biomed,12054-85-2
+Ascorbic Acid,176.12,Alfa Aesar,11188
 Phenylhydrazine,144.6,,
-Riboflavin,376.37,,
+Riboflavin 5'-phosphate sodium salt hydrate,376.37,SigmaAldrich, R7774-10G
+2-Phosphoglycolic acid lithium salt,156.03,SigmaAldrich,13147-57-4
