@@ -1,7 +1,7 @@
 # PhotorespiratoryAssay_Recipes
 This app is a web-based tool that allows researchers to automate the solution, extraction buffer, and enzyme activity assay preparation. The app is built on the R programming language and the Shiny web framework.
 
-The app is hosted at https://l-gregory.shinyapps.io/photorespiratoryassay_recipes with 25 active hours per month.
+The app is hosted at [https://l-gregory.shinyapps.io/photorespiratoryassay_recipes](https://l-gregory.shinyapps.io/photorespiratoryassay_recipes-main/) with 25 active hours per month.
 
 ## Getting Started
 
