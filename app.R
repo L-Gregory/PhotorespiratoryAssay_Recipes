@@ -933,7 +933,7 @@ server <- function(input, output) {
           "1)", HEPES.GKRB, "uL of 0.25 Μ HEPES [pH 7.8]", "\n",
           "2)", MgCl2.GKRB, "uL of 1M MgCl2", "\n",
           "3)", KCl.GKRB, "uL of 4M KCl", "\n",
-          "4)", ATPCP.GKRB, "uL of 0.01M ATP / 0.05M CP", "\n",
+          "4)", ATPCP.GKRB, "uL of 0.05M ATP / 0.05M CP", "\n",
           "5)", NADH.GKRB, "uL of 0.04M NADH", "\n",
           "6)", H2O.GKRB, "uL of H2O", "\n",
           "Invert a few times to mix, and store at the assay temperature")
